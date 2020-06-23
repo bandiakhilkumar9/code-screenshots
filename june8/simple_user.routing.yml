@@ -1,0 +1,6 @@
+simple.user:
+  path: '/simple/{user}'
+  defaults: 
+    _controller: '\Drupal\simple\Controller\simpleuserController::content' 
+  requirements: 
+    _role: 'administrator''
