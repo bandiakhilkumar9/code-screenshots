@@ -1,0 +1,19 @@
+name: training
+description: training custom theme
+type: theme
+core: 8.x
+libraries:
+    - taining/global-styling
+base theme:
+    classy
+regions:
+    navigation: Main navigation
+    search: Search
+    featured: Featured
+    content: Content
+    sidebar_first : Sidebar first
+    sidebar_second :  Sidebar second
+    footer_firstcoulmn: Footer first column
+    footer_secondcoulmn: Footer Second coulmn
+    footer_thirdcoulmn: Footer Third coulmn 
+    footer_fourthcoulmn: Footer fourth coulmn
