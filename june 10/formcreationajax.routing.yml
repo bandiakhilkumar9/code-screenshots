@@ -1,0 +1,7 @@
+formcreationajax:
+  path: '/formapi/ajax'
+  defaults:
+    _title: 'Application forms'
+    _form: '\Drupal\formcreationajax\Form\FormAjax'
+  requirements:
+    _permission: 'access content'
