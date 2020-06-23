@@ -1,0 +1,4 @@
+name: 'studentform'
+type: module
+description: 'Example of a custom form'
+core: 8.x
