@@ -1,0 +1,7 @@
+formcreation:
+  path: '/application/form'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\formcreation\Form\simpleform'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+name: form
+type: module
+description: 'Example for Drupal 8 modules.'
+version: 8.x
+core: 8.x
+package: Custom
