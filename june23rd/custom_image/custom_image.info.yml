@@ -1,0 +1,7 @@
+name: customimage Migration 
+description: Provides a custom module
+type: module
+core: 8.x
+dependencies:
+  - migrate_drupal
+  - migrate_plus

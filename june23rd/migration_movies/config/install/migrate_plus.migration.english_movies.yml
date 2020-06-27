@@ -1,0 +1,13 @@
+id: english_movies
+label: english_movies
+migration_group: migration_module
+source:
+  plugin: english_movies
+  key: default
+destination:
+  plugin: entity:taxonomy_term
+process:
+  vid:
+    plugin: default_value
+    default_value: tags
+  name: name
