@@ -1,0 +1,32 @@
+Ajaxapidb_form.generate_entry_list:
+  path: '/list'
+  defaults:
+    _title: 'Dashboard of list'
+    _controller: '\Drupal\Ajaxapidb_form\Controller\AjaxapidbFormController::entryList'
+  requirements:
+    _permission: 'Taxmony term form data'
+
+Ajaxapidb_form.list:
+  path: '/dashboardlist'
+  defaults:
+    _title: 'List'
+    _controller: '\Drupal\Ajaxapidb_form\Controller\AjaxapidbFormController::entryList'
+  requirements:
+    _permission: 'Taxmony term form data'
+
+Ajaxapidb_form.add:
+  path: '/application/add'
+  defaults:
+    _title: 'Application form'
+    _form: '\Drupal\Ajaxapidb_form\Form\AjaxapidbFormEventForm'
+  requirements:
+    _permission: 'Taxmony term form data'
+
+Ajaxapidb_form.update:
+  path: '/update'
+  defaults:
+    _title: 'Update application form'
+    _form: '\Drupal\Ajaxapidb_form\Form\AjaxapidbFormUpdateForm'
+  requirements:
+    _permission: 'Taxmony term form data'
+

@@ -1,0 +1,5 @@
+services:
+  Ajaxapidb_form.repository:
+    class: Drupal\Ajaxapidb_form\AjaxapidbFormRepository
+    arguments: ['@database', '@string_translation', '@messenger']
+    

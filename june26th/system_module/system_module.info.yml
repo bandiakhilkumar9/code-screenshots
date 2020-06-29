@@ -1,0 +1,4 @@
+name: system module
+description: custom configuration module
+type: module
+core: 8.x

@@ -1,0 +1,6 @@
+name: Ajaxapidb Form
+type: module
+description: 'creation of ajaxdb'
+package: Ajaxapidb Form
+core: 8.x
+

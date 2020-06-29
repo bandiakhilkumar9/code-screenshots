@@ -1,0 +1,55 @@
+<?php
+
+function Ajaxapidb_form_schema() {
+  $schema['userregistration'] = array(
+    'description' => 'Stores user data in custom table',
+    'fields' => array(
+      'pid' => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'Primary Key: Unique id for user',
+      ),
+      'First name' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+         'description' => 'First name of the user.',
+      ),
+      'Last name' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+         'description' => 'Last name of the user.',
+      ),
+       'Bio' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+         'description' => 'Bio for the user.',
+      ),
+      'gender' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+         'description' => 'gender for the user.',
+      ),
+      'interest' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+      ),
+    ),
+    'primary key' => array('pid'),
+    'indexes' => [
+      'firstname' => ['First name'],
+      'lastname' => ['Last name'],
+      'bio' => ['Bio'],
+	  'gender' => ['gender'],
+	 
+	  'interset' => ['interest'],
+    ]
+  );
+
+  return $schema;
+}
+
